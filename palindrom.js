@@ -3,6 +3,7 @@
 function nextReverseString(str) {
     return str.split('').reverse().join('');
 }
+
 function ispolindrom(str) {
     const newString = nextReverseString(str)
     return str.toLowerCase() === newString.toLowerCase()
