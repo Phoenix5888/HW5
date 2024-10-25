@@ -5,6 +5,7 @@ function nextReverseString(str) {
 }
 
 function ispolindrom(str) {
+    
     const newString = nextReverseString(str)
     return str.toLowerCase() === newString.toLowerCase()
 }
