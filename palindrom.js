@@ -11,6 +11,7 @@ function ispolindrom(str) {
 }
 const nextInputString = "Кабак";
 
+
 const nextResult = ispolindrom(nextInputString);
 
 console.log(nextResult);
